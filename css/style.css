@@ -1,0 +1,42 @@
+html{
+    block-size: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after{
+    block-size: inherit;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    height: 100%;
+}
+
+img{
+    min-width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-contenT{
+    flex-grow: 1;
+}
